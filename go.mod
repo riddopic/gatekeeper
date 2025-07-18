@@ -1,6 +1,6 @@
 module github.com/open-policy-agent/gatekeeper
 
-go 1.17
+go 1.23.0
 
 // Prevent otel dependencies from getting out of sync.
 replace (
@@ -34,7 +34,7 @@ require (
 	go.uber.org/automaxprocs v1.5.1
 	go.uber.org/zap v1.21.0
 	golang.org/x/net v0.0.0-20220624214902-1bab6f366d9e
-	golang.org/x/oauth2 v0.0.0-20220622183110-fd043fe589d2
+	golang.org/x/oauth2 v0.27.0
 	golang.org/x/sync v0.0.0-20220601150217-0de741cfad7f
 	golang.org/x/time v0.0.0-20220609170525-579cf78fd858
 	gopkg.in/yaml.v3 v3.0.1
